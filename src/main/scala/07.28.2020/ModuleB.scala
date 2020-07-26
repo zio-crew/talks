@@ -1,30 +1,28 @@
 package talks.july2020
 
 import zio._
-import talks.july2020.moduleA.ModuleA.Service
+import moduleA._
+import talks.july2020.moduleB.ModuleB.Service
 
-object moduleA {
+object moduleB {
 
   // service binding
-  type ModuleA = Has[ModuleA.Service]
+  type ModuleB = Has[ModuleB.Service]
 
   // service declaration
-  object ModuleA {
+  object ModuleB {
     trait Service {
       def run(): UIO[String]
     }
   }
 
   // service implementation
-  val live = ZLayer.succeed {
+  val live = ZLayer.fromService((modA: ModuleA.Service) =>
     new Service {
-      private val kafka = new Kafka {}
-
-      override def run() = UIO(kafka.talk())
+      def run(): UIO[String] = modA.run()
     }
-  }
+  )
 
   // Public accessor
   def run(): URIO[ModuleA, String] = ZIO.accessM(_.get.run())
-
 }
