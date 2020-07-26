@@ -16,10 +16,8 @@ object moduleA {
   }
 
   // service implementation
-  val live = ZLayer.succeed {
+  val live = ZLayer.fromService { kafka: Kafka =>
     new Service {
-      private val kafka = new Kafka {}
-
       override def run() = UIO(kafka.talk())
     }
   }

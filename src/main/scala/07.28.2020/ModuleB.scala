@@ -17,12 +17,12 @@ object moduleB {
   }
 
   // service implementation
-  val live = ZLayer.fromService((modA: ModuleA.Service) =>
+  val live = ZLayer.fromServices((modA: ModuleA.Service, cass: Cassandra) =>
     new Service {
-      def run(): UIO[String] = modA.run()
+      def run(): UIO[String] = modA.run().map(_ + "_" + cass.talk())
     }
   )
 
   // Public accessor
-  def run(): URIO[ModuleA, String] = ZIO.accessM(_.get.run())
+  def run(): URIO[ModuleB, String] = ZIO.accessM(_.get.run())
 }
