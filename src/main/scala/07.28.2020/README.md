@@ -23,3 +23,11 @@ ZIO and microservices developer. [Chisel](https://www.chisel-lang.org/) tools de
 * [Izumi Home](https://izumi.7mind.io/)
 * [Dependency Injection with ZLayer](https://github.com/adamgfraser/solving-the-dependency-injection-problem-with-zio/blob/master/solving-the-dependency-injection-problem-with-zio.pdf)
 * [Chisel Home](https://www.chisel-lang.org/)
+* [ZIO Test](https://zio.dev/docs/usecases/usecases_testing)
+
+## Related Talks
+* Adam Fraser : [Getting started with ZIO](https://www.youtube.com/watch?v=6A1SA5Be9qw)
+* Adam Fraser : [Test Effects First Class](https://www.youtube.com/watch?v=SctHB29cLXk)
+* Adam Fraser : [0 to 100 with ZIO Test, Scala in the City Conference](https://www.youtube.com/watch?v=qDFfVinjDPQ)
+* Pavel Shirshov and Kai : [Hyper-pragmatic Pure FP Testing with distage-testkit, Functional Scala, London](https://www.youtube.com/watch?v=CzpvjkUukAs)
+* Pavel Shirvhov and Kai : [Livecoding: DIStage & Bifunctor Tagless Final](https://www.youtube.com/watch?v=C0srg5T0E4o&t=4971)
