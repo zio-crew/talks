@@ -8,9 +8,6 @@
 * Boris V. Kuznetsov [@tampler]() <br>
 ZIO and microservices developer. [Chisel](https://www.chisel-lang.org/) tools developer. Entrepreneur and lead [@ZIO Crew](https://github.com/zio-crew/) and [@Chisel Crew](https://github.com/chisel-crew/)
 
-* Pavel Shirshov [@pshirshov](https://github.com/pshirshov) <br>
-`ZIO` Steering Committee Member. Co-author of [izumi.reflect](https://github.com/zio/izumi-reflect) and [Distage](https://izumi.7mind.io/distage/index.html). Entrepreneur, co-founder @ [Septimal Mind](https://izumi.7mind.io/).  
-
 * Adam Fraser [@adamgfraser](https://github.com/adamgfraser/) <br>
 `ZIO` Core Team Member. `ZIO Test` and `ZLayer` major contributor. Entrepreneur, co-founder and Solutions Architect @ [Ziverge](https://ziverge.com/about/)
 
