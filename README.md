@@ -4,11 +4,12 @@
 
 ZIO Crew wants to build and spread beyond borders knowledge about `ZIO`, `Scala`, functional programming and its practical, real world applications.
 
-We do this through building a community, building and sharing projects, and giving public talks on different aspects of technology and applications.
+We do this through building a community, building and sharing projects and giving public talks on different aspects of technology and applications.
 
-We collect, store, publish and PR all seminar, conference, meetup, etc talks in the same place to localize knowledge about ZIO, share it across developers and give a word of mouth about the best developers, who work on those projects.
+We collect, store, publish and PR all seminar, conference, meetup, etc talks in the same place to localize the knowledge about ZIO, share it across developers and give a word of mouth about the best developers, who work on those projects.
 
 Each talk consists of the following:
+
 * Topic
 * Author info and credentials
 * PR with a related code
@@ -40,8 +41,9 @@ All talks are recorded and published on our video channels
 * [Community Link](https://www.chisel-lang.org/)
 * [Join Link](https://sifive.zoom.us/j/928945582)
 
-3. Signify Technology Conference 
 
-* Organizer: [Signify](https://www.signifytechnology.com/)
-* When : TBD
-* Join Link - TBD
+## Support 
+Join our chat on  [![Badge-Discord]][Link-Discord]
+
+[Badge-Discord]: https://img.shields.io/discord/734424265600008215?logo=discord "chat on discord"
+[Link-Discord]: https://discord.gg/R68we8C "Discord"
